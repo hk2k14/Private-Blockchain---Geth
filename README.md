@@ -14,7 +14,6 @@ The Applications can comprise things like decentralized applications , cryto tok
 📖-**Instructions**
 * Install Geth and Puppeth network manager.
 * Install WSL if your OS is windows (Only if additional layer of security is needed ) .
-* Download JSTL-1.2.jar file and mysql-connector-java-8.0.16 .
 * Download all three Batch Files.
 * Run First Batch file -> type "genesis" in first line -> configure new genesis -> select Ethash/Clique 
 -> set newtwork id as "1234" -> Manage existing genesis -> Export genesis configuration -> Ctrl+c and exit.
@@ -23,36 +22,17 @@ The Applications can comprise things like decentralized applications , cryto tok
 * Run Third Batch File .
 * To Enable Security from unauthorized access: Use commands : sudo ufw default allow outgoing and sudo ufw default deny incoming . Then configure IpTables . 
 * Else run the batch file .
+* Start miner . cmd : miner.start() .
 
-
-
-📸-**Screenshots**
 <div style="background-color:rgb(169,169,169); text-align:center">
-<img src="screenshot/6.png" width="300" style="border-radius: 15px">
-&nbsp;
-<img src="screenshot/1.png" width="300" style="border-radius: 15px">
+<img src="Screenshots/miner.png" width="800" style="border-radius: 15px">
 </div>
 
+* Then Unlock accounts and connect with smart contract if needed.Once Authentication is successful and the account is unlocked , it will be reflected in the remix ide .Now the smart contract is ready to run . Finally deploy the smart contract. 
 
 <div style="background-color:rgb(169,169,169); text-align:center">
-<img src="screenshot/2.png" width="300" style="border-radius: 15px">
-&nbsp;
-<img src="screenshot/3.png" width="300" style="border-radius: 15px">
-</div>
-
-<div style="background-color:rgb(169,169,169); text-align:center">
-<img src="screenshot/5.png" width="300" style="border-radius: 15px">
-&nbsp;
-<img src="screenshot/4.png" width="300" style="border-radius: 15px">
+<img src="Screenshots/solidity_connect.png" width="800" style="border-radius: 15px">
 </div>
 
 
 
-🛠-**Build With**
-* HTML,CSS,JS
-
-
-* JSP,JSTL
-
-
-* MYSQL.
